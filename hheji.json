@@ -1,0 +1,57 @@
+{
+  "sites": [
+    {
+      "key": "yangyang",
+      "name": "🐑洋洋4K",
+      "type": 1,
+      "api": "https://example.com/yangyang.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "jianying",
+      "name": "⚛️鉴影4K[JX]",
+      "type": 1,
+      "api": "https://example.com/jianying.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playUrl": "json:专属解析地址"
+    },
+    {
+      "key": "nanfeng",
+      "name": "🌬南风4K",
+      "type": 1,
+      "api": "https://example.com/nanfeng.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "🌐Web聚合解析",
+      "type": 0,
+      "url": "https://jx.example.com/?url="
+    },
+    {
+      "name": "🚀高速解析1",
+      "type": 0,
+      "url": "https://vip1.example.com/?url="
+    },
+    {
+      "name": "🚀高速解析2",
+      "type": 0,
+      "url": "https://vip2.example.com/?url="
+    },
+    {
+      "name": "💡备用解析",
+      "type": 0,
+      "url": "https://api.example.com/jx/?url="
+    }
+  ]
+}
